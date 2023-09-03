@@ -1,5 +1,13 @@
+:root{
+    --main-bg-color: linear-gradient(
+        99.92deg,
+        rgb(159, 45, 235) 18.57%,
+        rgb(198, 0, 163) 71.77%
+    );
+}
+
 html{
-    background-color: #5C0F8C;
+    background: var(--main-bg-color);
     box-sizing: border-box;
 }
 
